@@ -28,6 +28,7 @@ export const ContactSection = () => {
         description: "Thank you for your message. I'll get back to you soon.",
       });
       setIsSubmitting(false);
+      e.target.reset(); //Clear the form fields
     }, 1500);
   };
   return (
