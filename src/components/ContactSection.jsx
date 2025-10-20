@@ -68,10 +68,10 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                  <div className="min-w-[190px]">
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+11234567890"
+                    href="tel:+639776357850"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +63 (977-635-7850)
@@ -82,7 +82,7 @@ export const ContactSection = () => {
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                  <div className="min-w-[180px]">
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Philippines (Remote Work Available)

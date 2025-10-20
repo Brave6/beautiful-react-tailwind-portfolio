@@ -38,7 +38,9 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href=""
+                href="https://sethaldwin.netlify.app/assets/Tolentino,%20Seth%20Aldwin%20-%20Android%20Developer.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV

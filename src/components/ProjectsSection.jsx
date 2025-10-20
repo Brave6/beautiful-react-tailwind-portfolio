@@ -7,8 +7,7 @@ const projects = [
     description: "A concept Android app built with Jetpack Compose, it showcases a complete e-commerce flow including user authentication, dynamic menus, cart management, rewards, and profile handling.",
     image: "/projects/project1.png",
     tags: ["Kotlin", "MVVM", "Compose", "Hilt", "Flow", "Coil", "Firebase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Brave6/steam-bean-app",
   },
   {
     id: 2,
@@ -16,8 +15,7 @@ const projects = [
     description: "A native Android app for a racing & karting theme park. Built with Kotlin, MVVM, Retrofit, and MongoDB Atlas for a seamless user experience.",
     image: "/projects/project2.png",
     tags: ["Kotlin", "MVVM", "XML", "Hilt", "MongoDB Atlas", "Node.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Brave6/pit-stop-paradise",
   },
  
 ];
@@ -64,20 +62,13 @@ export const ProjectsSection = () => {
                   {project.description}
                 </p>
                 <div className="flex justify-center items-center mt-4">
-                  <div className="flex space-x-3">
-                    <a
-                      href={project.demoUrl}
-                      target="_blank"
-                      className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                    >
-                      <ExternalLink size={20} />
-                    </a>
+                  <div className="flex space-x-3">                    
                     <a
                       href={project.githubUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <Github size={20} />
+                      <Github size={24} />
                     </a>
                   </div>
                 </div>
