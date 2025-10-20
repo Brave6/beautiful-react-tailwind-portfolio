@@ -3,33 +3,23 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Steam & Bean",
+    description: "A concept Android app built with Jetpack Compose, it showcases a complete e-commerce flow including user authentication, dynamic menus, cart management, rewards, and profile handling.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["Kotlin", "MVVM", "Compose", "Hilt", "Flow", "Coil", "Firebase"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    title: "Pit Stop Paradise",
+    description: "A native Android app for a racing & karting theme park. Built with Kotlin, MVVM, Retrofit, and MongoDB Atlas for a seamless user experience.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Kotlin", "MVVM", "XML", "Hilt", "MongoDB Atlas", "Node.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+ 
 ];
 
 export const ProjectsSection = () => {
@@ -46,7 +36,7 @@ export const ProjectsSection = () => {
           crafted with attention to detail, performance, and user experience.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {projects.map((project, key) => (
             <div
               key={key}
@@ -73,7 +63,7 @@ export const ProjectsSection = () => {
                 <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-center items-center mt-4">
                   <div className="flex space-x-3">
                     <a
                       href={project.demoUrl}

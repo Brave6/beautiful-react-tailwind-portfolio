@@ -12,20 +12,23 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Android Developer & UI Engineer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              I'm an Android Developer focused on crafting clean, modern, and
+              user-centered mobile experiences using Kotlin and the latest
+              Android technologies. With hands-on experience building apps
+              from the ground up, I specialize in developing intuitive,
+              responsive, and maintainable front-end systems.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+             From implementing sleek UI designs to integrating RESTful APIs
+              and managing state with best practices, I take pride in writing
+              scalable and efficient code. I’m always exploring new libraries,
+              tools, and design patterns to keep my apps performant and
+              future-ready.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -50,10 +53,11 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> Android Development</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                     Building Android apps using Kotlin, Jetpack Compose, XML, and modern
+                    architecture patterns like MVVM with Retrofit and
+                    Coroutines.
                   </p>
                 </div>
               </div>
@@ -64,10 +68,10 @@ export const AboutSection = () => {
                   <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">UI/UX Implementation</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                     Translating design concepts into pixel-perfect interfaces
+                    that are responsive, accessible, and delightful to use.
                   </p>
                 </div>
               </div>
@@ -79,10 +83,11 @@ export const AboutSection = () => {
                 </div>
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">Solo Project Development</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Experienced in handling full app lifecycles — from design
+                    and API integration to testing and deployment — as a solo
+                    developer.
                   </p>
                 </div>
               </div>
