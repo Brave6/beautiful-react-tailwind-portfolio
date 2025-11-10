@@ -21,7 +21,7 @@ const skills = [
   { name: "RESTful API Integration", level: 80, category: "backend" },
 
   // Tools
-   { name: "Android Studio", level: 95, category: "tools" },
+  { name: "Android Studio", level: 95, category: "tools" },
   { name: "Git / GitHub", level: 80, category: "tools" },
   { name: "Postman", level: 80, category: "tools" },
   { name: "Figma / Adobe XD", level: 65, category: "tools" },
@@ -66,9 +66,11 @@ export const SkillsSection = () => {
               key={key}
               className="bg-card p-6 rounded-lg shadow-xs card-hover"
             >
-              <div className="text-left mb-4">
+              <div className="text-center"> {/* Changed text-left to text-center for visual balance */}
                 <h3 className="font-semibold text-lg"> {skill.name}</h3>
               </div>
+              {/* Removed the percentage bar and the percentage display below */}
+              {/*
               <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
                 <div
                   className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out]"
@@ -81,6 +83,7 @@ export const SkillsSection = () => {
                   {skill.level}%
                 </span>
               </div>
+              */}
             </div>
           ))}
         </div>
