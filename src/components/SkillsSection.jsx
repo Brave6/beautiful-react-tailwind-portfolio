@@ -24,6 +24,8 @@ const skills = [
   { name: "Android Studio", level: 95, category: "tools" },
   { name: "Git / GitHub", level: 80, category: "tools" },
   { name: "Postman", level: 80, category: "tools" },
+  { name: "Lint", level: 80, category: "tools" },
+  { name: "Detekt", level: 80, category: "tools" },
   { name: "Figma / Adobe XD", level: 65, category: "tools" },
   { name: "Agile & Solo Development", level: 75, category: "tools" },
 ];
